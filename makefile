@@ -5,4 +5,4 @@ README.md:
 	date >> README.md
 	echo "" >> README.md
 	echo "Number of lines: " >> README.md
-	less guessinggame.sh | wc-l >> README.md
+	less guessinggame.sh | wc -l >> README.md
